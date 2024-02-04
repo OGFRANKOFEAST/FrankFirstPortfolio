@@ -26,7 +26,7 @@ const Navigation = () => {
             }, 1200 )
             return() => clearTimeout(timeout)
         }
-    }, [isRouting])
+    }, [isRouting, path])
 
   return (
     <div 
